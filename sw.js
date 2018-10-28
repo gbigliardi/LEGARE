@@ -5,6 +5,7 @@ self.addEventListener('install', function(e) {
        '/LEGARE/',
        '/LEGARE/index.html',
        '/LEGARE/index.js',
+       '/LEGARE/sw.js',
        '/LEGARE/assets/images/01.jpg',
        '/LEGARE/assets/images/LEGARE/assets/images/01.png',
        '/LEGARE/assets/images/LEGARE/assets/images/hashes.json',
