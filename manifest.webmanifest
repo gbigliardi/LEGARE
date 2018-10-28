@@ -1,19 +1,15 @@
-{"dir" : "ltr",
-    "lang" : "it",
-    "name" : "Home",
-    "scope" : "/LEGARE/",
-    "display" : "browser",
-    "start_url" : "https://gbigliardi.github.io/LEGARE/",
-    "short_name" : "Home",
-    "theme_color" : "transparent",
-    "description" : "",
-    "orientation" : "any",
-    "background_color" : "transparent",
-    "related_applications" : "",
-    "prefer_related_applications" : "false",
-    "icons" : [
-        {
+    {
+        "background_color": "transparent",
+        "description": "Menu di servizio LEGA REGGIO EMILIA",
+        "display": "fullscreen",
+        "icons": [
+          {
             "src": "https://gbigliardi.github.io/LEGARE/assets/images/cropped-favicon-128x128.png",
-            "sizes": "128x128"
-        }
-    ]}
+            "sizes": "128x128",
+            "type": "image/png"
+          }
+        ],
+        "name": "LEGA REGGIO EMILIA",
+        "short_name": "LEGA RE",
+        "start_url": "https://gbigliardi.github.io/LEGARE/"
+    }
