@@ -73,6 +73,6 @@ self.addEventListener('install', function(event) {
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('/LEGARE/sw.jssw.js')
+           .register('/LEGARE/sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
