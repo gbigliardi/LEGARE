@@ -1,3 +1,29 @@
+
+
+var deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', function (e) {
+  // Prevent Chrome 67 and earlier from automatically showing the prompt
+  e.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = e;
+
+  showAddToHomeScreen();
+
+});
+
+
+function showAddToHomeScreen() {
+
+  var a2hsBtn = document.querySelector(".ad2hs-prompt");
+
+  a2hsBtn.style.display = "block";
+
+  a2hsBtn.addEventListener("click", addToHomeScreen);
+
+}
+
+
 //This is the "Offline copy of pages" service worker
 
 //Install stage sets up the index page (home page) in the cache and opens a new cache
