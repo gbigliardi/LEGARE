@@ -21,5 +21,7 @@
         ],
         "name": "LEGA REGGIO EMILIA",
         "short_name": "LEGA RE",
-        "start_url": "https://gbigliardi.github.io/LEGARE/"
+        "start_url": "https://gbigliardi.github.io/LEGARE/",
+        "background_color": "#3367D6",
+        "theme_color": "#3367D6"
     }
