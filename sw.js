@@ -8,6 +8,8 @@ self.addEventListener('install', function(e) {
        '/LEGARE/sw.js',
        '/LEGARE/assets/images/01.jpg',
        '/LEGARE/assets/images/cropped-favicon-128x128.png',
+       '/LEGARE/assets/images/LEGA_salvini_192.png',
+       '/LEGARE/assets/images/LEGA_salvini_512.png',
        '/LEGARE/assets/images/hashes.json',
        '/LEGARE/assets/images/logo.png'
      ]);
