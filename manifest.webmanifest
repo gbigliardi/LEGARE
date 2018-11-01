@@ -1,5 +1,6 @@
     {
         "description": "Menu di servizio LEGA REGGIO EMILIA",
+        "background_color": "#184097",
         "display": "fullscreen",
         "icons": [
           {
@@ -21,6 +22,5 @@
         "name": "LEGA REGGIO EMILIA",
         "short_name": "LEGA RE",
         "start_url": "https://gbigliardi.github.io/LEGARE/",
-        "background_color": "#184097",
         "theme_color": "#184097"
     }
