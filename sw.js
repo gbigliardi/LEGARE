@@ -9,7 +9,8 @@ self.addEventListener('install', function(e) {
        '/LEGARE/assets/images/cropped-favicon-128x128.png',
        '/LEGARE/assets/images/LEGA_salvini_192.png',
        '/LEGARE/assets/images/LEGA_salvini_512.png',
-       '/LEGARE/assets/images/logo.png'
+       '/LEGARE/assets/images/logo_amp.png',
+       '/LEGARE/assets/images/logo_menu.png'
      ]);
    })
  );
