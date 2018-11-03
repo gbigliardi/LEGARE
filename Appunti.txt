@@ -1,0 +1,8 @@
+-- per forzare aggiornamento della cache di google
+
+https://cdn.ampproject.org/c/gbigliardi.github.io/LEGARE/index.html
+
+-- per pulire cache nei browser :
+   - su desktop firefox, vai nella pagina della app, poi ispeziona, poi storage e elimina tutti in ogni voce
+   - su desktop chrome, vai nella pagina della app, poi ispeziona, poi applicazioni e svuota la cache
+   - su smartphone vai nei dati dell'pplicazione browser e elimina dati tutti
