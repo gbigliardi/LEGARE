@@ -1,4 +1,10 @@
 {
     "liveServer.settings.multiRootWorkspaceName": "LEGARE",
-    "liveServer.settings.CustomBrowser": "chrome"
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.https": {
+        "enable": true, //set it true to enable the feature.
+        "cert": "D:\\openssl\\rootSSL.pem", //full path
+        "key": "D:\\openssl\\rootSSL.key", //full path
+        "passphrase": "legiopatria"
+    }
 }
