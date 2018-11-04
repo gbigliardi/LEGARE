@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html amp="" lang="it">
-  <head>
-    <meta charset="UTF-8"> 
+
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="Gabriele Bigliardi">
@@ -16,7 +17,7 @@
     <link rel="canonical" href="https://gbigliardi.github.io/LEGARE/index.html">
     <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
     <noscript>
-    <style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+        <style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
     </noscript>
     <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
     <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
@@ -28,9 +29,9 @@
       rel="stylesheet">
     -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic"
-      rel="stylesheet">      
+        rel="stylesheet">
     <style amp-custom="">
-div,
+        div,
 span,
 h1,
 h2,
@@ -1507,7 +1508,7 @@ p {
     background-color: #ffffff;
 }
 
-/* siti nazionali */
+/* siti e social nazionali */
 .cid_siti_e_social {
     padding-top: 60px;
     padding-bottom: 10px;
@@ -1793,88 +1794,93 @@ p {
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
-   </head>
-  <body>
-        <div id="top-page"></div>                                        
-        <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                            
-          <script type="application/json">
+</head>
+
+<body>
+    <div id="top-page"></div>
+    <amp-animation id="showScrollToTopAnim" layout="nodisplay">
+        <script type="application/json">
             {
-            "duration": "200ms",
-            "fill": "both",
-            "iterations": "1",
-            "direction": "alternate",
-            "animations": [{
-                "selector": "#scrollToTopButton",
-                "keyframes": [{
-                    "opacity": "0.4",
-                    "visibility": "visible"
+                "duration": "200ms",
+                "fill": "both",
+                "iterations": "1",
+                "direction": "alternate",
+                "animations": [{
+                    "selector": "#scrollToTopButton",
+                    "keyframes": [{
+                        "opacity": "0.4",
+                        "visibility": "visible"
+                    }]
                 }]
-            }]
-          }</script>
-        </amp-animation>
-        <amp-animation id="hideScrollToTopAnim" layout="nodisplay">
-          <script type="application/json">
+            }
+        </script>
+    </amp-animation>
+    <amp-animation id="hideScrollToTopAnim" layout="nodisplay">
+        <script type="application/json">
             {
-            "duration": "200ms",
-            "fill": "both",
-            "iterations": "1",
-            "direction": "alternate",
-            "animations": [{
-                "selector": "#scrollToTopButton",
-                "keyframes": [{
-                    "opacity": "0",
-                    "visibility": "hidden"
+                "duration": "200ms",
+                "fill": "both",
+                "iterations": "1",
+                "direction": "alternate",
+                "animations": [{
+                    "selector": "#scrollToTopButton",
+                    "keyframes": [{
+                        "opacity": "0",
+                        "visibility": "hidden"
+                    }]
                 }]
-            }]
-        }</script>
-        </amp-animation>
-        <div id="scrollToTopMarker">
-            <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay"> 
-            </amp-position-observer>
-        </div>        
-        <amp-sidebar id="sidebar" class="cid-r8fjL7nhMj" layout="nodisplay" side="right">
-            <div class="builder-sidebar" id="builder-sidebar">
-                <button on="tap:sidebar.close" class="close-sidebar">
-                    <span></span>
-                    <span></span>
-                </button>
-      
-                <div class="sidebar mbr-white" data-app-modern-menu="true">
-                        
-                  <a class="text-primary display-7" href="#id_reggio_merita_di_meglio">Home</a>
-                  <a class="text-primary display-7" href="#id_social_av">social locali TOP</a>
-                  <a class="text-primary display-7" href="#id_digitale_promozionale">digitale promozionale</a>
-                  <a class="text-primary display-7" href="#id_notizie_re">notizie Reggio</a>
-                  <a class="text-primary display-7" href="#id_notizie_er">notizie Emilia</a>
-                  <a class="text-primary display-7" href="#id_siti_e_social">siti nazionali</a>
-                  <a class="text-primary display-7" href="#id_segreterie">segretari</a>
-                  <hr>
-                  <a href="https://api.whatsapp.com/send?phone=393282136598&text=Ciao,%20vorrei%20suggerire%20di" alt="Suggerisci variazioni con Whatsapp">Suggerisci variazioni con Whatsapp</a>
-                </div>
-                <!--
+            }
+        </script>
+    </amp-animation>
+    <div id="scrollToTopMarker">
+        <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">
+        </amp-position-observer>
+    </div>
+    <amp-sidebar id="sidebar" class="cid-r8fjL7nhMj" layout="nodisplay" side="right">
+        <div class="builder-sidebar" id="builder-sidebar">
+            <button on="tap:sidebar.close" class="close-sidebar">
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="sidebar mbr-white" data-app-modern-menu="true">
+
+                <a class="text-primary display-7" href="#id_reggio_merita_di_meglio">Home</a>
+                <a class="text-primary display-7" href="#id_social_av">social locali TOP</a>
+                <a class="text-primary display-7" href="#id_digitale_promozionale">digitale promozionale</a>
+                <a class="text-primary display-7" href="#id_notizie_re">notizie Reggio</a>
+                <a class="text-primary display-7" href="#id_notizie_er">notizie Emilia</a>
+                <a class="text-primary display-7" href="#id_siti_e_social">siti e social nazionali</a>
+                <a class="text-primary display-7" href="#id_segreterie">segretari</a>
+                <hr>
+                <a href="https://api.whatsapp.com/send?phone=393282136598&text=Ciao,%20vorrei%20suggerire%20di" alt="Suggerisci variazioni con Whatsapp">Suggerisci
+                    variazioni con Whatsapp</a>
+            </div>
+            <!--
                 <div class="navbar-buttons mbr-section-btn align-center">
                   <a class="btn btn-sm btn-primary display-4" href="#id_reggio_merita_di_meglio">Test</a>
                 </div>
                 -->
-            </div>
-        </amp-sidebar>
-        <section class="menu cid-r8fjL7nhMj" id="menu1-0">
-          <nav class="headerbar sticky-nav">
+        </div>
+    </amp-sidebar>
+    <section class="menu cid-r8fjL7nhMj" id="menu1-0">
+        <nav class="headerbar sticky-nav">
             <div class="brand">
                 <span class="brand-logo">
-                    <amp-img src="assets/images/LEGA_logo_menu.png" layout="responsive" width="55.87765957446808" height="55" alt="AMP">
+                    <amp-img src="assets/images/LEGA_logo_menu.png" layout="responsive" width="55.87765957446808"
+                        height="55" alt="AMP">
                     </amp-img>
                 </span>
                 <p class="brand-name mbr-fonts-style display-2">LEGA - Reggio Emilia</p>
             </div>
-          </nav>
-          <button on="tap:sidebar.toggle" class="ampstart-btn hamburger sticky-but">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-          </button>
-        </section>
+        </nav>
+        <button on="tap:sidebar.toggle" class="ampstart-btn hamburger sticky-but">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </section>
 
     <!-- nuovo menu 
     <header class="headerbar">
@@ -1924,7 +1930,7 @@ p {
     <div id="scrollToTopMarker"> <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start"
 
         layout="nodisplay"> </amp-position-observer> </div>
-    -->        
+    -->
 
     <!--
     <section class="mbr-section content1 cid-r7HOqT2wno" id="content1-2">
@@ -1933,266 +1939,252 @@ p {
           LEGA - REGGIO EMILIA</h1>
       </div>
     </section>
-    -->    
+    -->
 
     <!--
     <section class="engine"><a href="https://mobiri.se/m">free website design
         templates</a>
     </section>
     -->
-    
+
     <section class="mbr-section content5 cid_reggio_merita_di_meglio" id="id_reggio_merita_di_meglio">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-
-            href="http://bit.ly/reggiomeritadimeglio">Reggio merita di meglio!</a></div>
-      </div>
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="http://bit.ly/reggiomeritadimeglio">Reggio
+                    merita di meglio!</a></div>
+        </div>
     </section>
-    
+
     <section class="mbr-section content5 cid_idee" id="id_idee">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-
-            href="http://bit.ly/propostelegareggio">Idee da discutere LEGA
-            Reggio Emilia</a></div>
-      </div>
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="http://bit.ly/propostelegareggio">Idee
+                    da discutere LEGA
+                    Reggio Emilia</a></div>
+        </div>
     </section>
-    
-    <section class="mbr-section content5 cid_schema_programma_re" id="id_schema_programma_re">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
 
-            href="http://bit.ly/programmalegareggio">Schema programma LEGA Reggio Emilia</a></div>
-      </div>
+    <section class="mbr-section content5 cid_schema_programma_re" id="id_schema_programma_re">
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="http://bit.ly/programmalegareggio">Schema
+                    programma LEGA Reggio Emilia</a></div>
+        </div>
     </section>
 
     <section class="mbr-section content5 cid_upload_foto" id="id_upload_foto">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-  
-              href="https://photos.app.goo.gl/cKmnHycyRFctdywy9">Upload foto LEGA Reggio Emilia</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://photos.app.goo.gl/cKmnHycyRFctdywy9">Upload
+                    foto LEGA Reggio Emilia</a></div>
         </div>
-      </section>
-  
+    </section>
 
-    
+
+
     <section class="mbr-section content5 cid_lega_re" id="id_lega_re">
-      <div class="mbr-container">
+        <div class="mbr-container">
 
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-
-            href="https://www.facebook.com/LegaNordRez">Lega Reggio Emilia</a></div>
-      </div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/LegaNordRez">Lega
+                    Reggio Emilia</a></div>
+        </div>
     </section>
-    
+
     <section class="mbr-section content5 cid_lega_giovani_re" id="id_lega_giovani_re">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-
-            href="https://www.facebook.com/MGPReggioEmilia">Lega Giovani Reggio Emilia</a></div>
-      </div>
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/MGPReggioEmilia">Lega
+                    Giovani Reggio Emilia</a></div>
+        </div>
     </section>
-    
+
     <section class="mbr-section content5 cid_lega_emilia" id="id_lega_emilia">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-
-            href="https://www.facebook.com/LegaNordEmilia">LEGA EMILIA</a></div>
-      </div>
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/LegaNordEmilia">LEGA
+                    EMILIA</a></div>
+        </div>
     </section>
-    
+
     <section class="mbr-section content1 cid_social_av" id="id_social_av">
-      <div class="mbr-container">
-        <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">social
-          locali ad alta visibilità</h2>
-      </div>
+        <div class="mbr-container">
+            <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">social
+                locali ad alta visibilità</h2>
+        </div>
     </section>
-    
-    <section class="mbr-section content5 cid_gazzetta_re" id="id_gazzetta_re">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
 
-            href="https://www.facebook.com/gazzettadireggio/">Gazzetta di Reggio</a></div>
-      </div>
+    <section class="mbr-section content5 cid_gazzetta_re" id="id_gazzetta_re">
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/gazzettadireggio/">Gazzetta
+                    di Reggio</a></div>
+        </div>
     </section>
 
     <section class="mbr-section content5 cid_reggionline" id="id_reggionline">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-
-            href="https://www.facebook.com/ReggionlineQuotidiano/">Reggionline
-            Quotidiano</a></div>
-      </div>
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/ReggionlineQuotidiano/">Reggionline
+                    Quotidiano</a></div>
+        </div>
     </section>
-    
+
     <section class="mbr-section content5 cid_peggio_emilia" id="id_peggio_emilia">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-
-            href="https://www.facebook.com/groups/PeggioEmiliaPublic">PEGGIO
-            EMILIA</a></div>
-      </div>
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/groups/PeggioEmiliaPublic">PEGGIO
+                    EMILIA</a></div>
+        </div>
     </section>
-    
+
     <section class="mbr-section content5 cid_sei_di_re" id="id_sei_di_re">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-
-            href="https://www.facebook.com/groups/583929468356270">Sei Di Reggio
-            Emilia Se..........</a></div>
-      </div>
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/groups/583929468356270">Sei
+                    Di Reggio
+                    Emilia Se..........</a></div>
+        </div>
     </section>
-    
-    <section class="mbr-section content5 cid_twitter_hashtag_re" id="id_twitter_hashtag_re">
-      <div class="mbr-container">
-        <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
 
-            href="https://twitter.com/search?f=tweets&amp;vertical=default&amp;q=%23reggioemilia&amp;src=typd">TWITTER
-            hashtag #reggioemilia</a></div>
-      </div>
+    <section class="mbr-section content5 cid_twitter_hashtag_re" id="id_twitter_hashtag_re">
+        <div class="mbr-container">
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://twitter.com/search?f=tweets&amp;vertical=default&amp;q=%23reggioemilia&amp;src=typd">TWITTER
+                    hashtag #reggioemilia</a></div>
+        </div>
     </section>
 
     <section class="mbr-section content1 cid_digitale_promozionale" id="id_digitale_promozionale">
         <div class="mbr-container">
-          <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">digitale promozionale</h2>
+            <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">digitale promozionale</h2>
         </div>
     </section>
-  
+
     <section class="mbr-section content5 cid_promozione_reggio_merita_di_meglio" id="id_promozione_reggio_merita_di_meglio">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/media/set/?set=a.10155550490702735&type=1&l=ed9a7bbb6a">digitale promozionale "REGGIO MERITA DI MEGLIO!"</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/media/set/?set=a.10155550490702735&type=1&l=ed9a7bbb6a">digitale
+                    promozionale "REGGIO MERITA DI MEGLIO!"</a></div>
         </div>
     </section>
 
     <section class="mbr-section content5 cid_promozione_reggio_emilia" id="id_promozione_reggio_emilia">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/media/set/?set=a.10155576986372735&type=1&l=071852b3d1">digitale promozionale Reggio Emilia</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/media/set/?set=a.10155576986372735&type=1&l=071852b3d1">digitale
+                    promozionale Reggio Emilia</a></div>
         </div>
     </section>
 
     <section class="mbr-section content5 cid_promozione_nazionale" id="id_promozione_nazionale">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/media/set/?set=a.10155576989452735&type=1&l=be8f612a81">digitale promozionale nazionale</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/media/set/?set=a.10155576989452735&type=1&l=be8f612a81">digitale
+                    promozionale nazionale</a></div>
         </div>
     </section>
 
     <section class="mbr-section content1 cid_notizie_re" id="id_notizie_re">
         <div class="mbr-container">
-          <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">notizie Reggio Emilia</h2>
+            <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">notizie Reggio Emilia</h2>
         </div>
     </section>
-  
+
     <section class="mbr-section content5 cid_notizie_google_1" id="id_notizie_google_1">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.google.com/search?q=reggio+emilia&tbs=qdr:d,sbd:1&tbm=nws&source=lnt&sa=X&ved=0ahUKEwji5NWz77LeAhURKBoKHWiZDyUQpwUIIA&biw=974&bih=938&dpr=1">Notizie Google REGGIO ultime 24H</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.google.com/search?q=reggio+emilia&tbs=qdr:d,sbd:1&tbm=nws&source=lnt&sa=X&ved=0ahUKEwji5NWz77LeAhURKBoKHWiZDyUQpwUIIA&biw=974&bih=938&dpr=1">Notizie
+                    Google REGGIO ultime 24H</a></div>
         </div>
     </section>
 
     <section class="mbr-section content5 cid_notizie_google_2" id="id_notizie_google_2">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-            href="https://www.google.com/search?biw=1920&bih=938&tbs=sbd%3A1%2Cqdr%3Aw&tbm=nws&ei=JMTaW6evIsSaa4jUncAI&q=%22reggio+emilia%22+lega+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&oq=%22reggio+emilia%22+lega+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&gs_l=psy-ab.3...12540.19369.0.19569.25.23.2.0.0.0.125.1516.21j2.23.0....0...1c.1.64.psy-ab..0.0.0....0.zmTsDFR7Bg4">Notizie Google REGGIO+LEGA ultimi 7gg</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.google.com/search?biw=1920&bih=938&tbs=sbd%3A1%2Cqdr%3Aw&tbm=nws&ei=JMTaW6evIsSaa4jUncAI&q=%22reggio+emilia%22+lega+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&oq=%22reggio+emilia%22+lega+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&gs_l=psy-ab.3...12540.19369.0.19569.25.23.2.0.0.0.125.1516.21j2.23.0....0...1c.1.64.psy-ab..0.0.0....0.zmTsDFR7Bg4">Notizie
+                    Google REGGIO+LEGA ultimi 7gg</a></div>
         </div>
     </section>
 
     <section class="mbr-section content5 cid_notizie_google_3" id="id_notizie_google_3">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.google.com/search?biw=1920&bih=938&tbs=sbd%3A1%2Cqdr%3Am&tbm=nws&ei=ssfaW6mqGYTWapDWqcgL&q=%22reggio+emilia%22+%22amministrative%22+2019&oq=%22reggio+emilia%22+%22amministrative%22+2019&gs_l=psy-ab.3...52953.53702.0.54372.5.5.0.0.0.0.103.359.4j1.5.0....0...1c.1.64.psy-ab..0.0.0....0.B90TSyg7Or0">Notizie Google REGGIO+AMMINISTRATIVE+2019 ultimi 30gg</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.google.com/search?biw=1920&bih=938&tbs=sbd%3A1%2Cqdr%3Am&tbm=nws&ei=ssfaW6mqGYTWapDWqcgL&q=%22reggio+emilia%22+%22amministrative%22+2019&oq=%22reggio+emilia%22+%22amministrative%22+2019&gs_l=psy-ab.3...52953.53702.0.54372.5.5.0.0.0.0.103.359.4j1.5.0....0...1c.1.64.psy-ab..0.0.0....0.B90TSyg7Or0">Notizie
+                    Google REGGIO+AMMINISTRATIVE+2019 ultimi 30gg</a></div>
         </div>
     </section>
 
     <section class="mbr-section content1 cid_notizie_er" id="id_notizie_er">
         <div class="mbr-container">
-          <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">notizie Emilia Romagna</h2>
+            <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">notizie Emilia Romagna</h2>
         </div>
     </section>
 
     <section class="mbr-section content5 cid_notizie_google_4" id="id_notizie_google_4">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.google.com/search?biw=1920&bih=939&tbs=sbd%3A1%2Cqdr%3Aw&tbm=nws&ei=3LrcW7rOH4ydgAa7zL_IDw&q=%22emilia+romagna%22+lega+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&oq=%22emilia+romagna%22+lega+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&gs_l=psy-ab.3...9071.11418.0.12415.14.14.0.0.0.0.103.1085.12j2.14.0....0...1c.1.64.psy-ab..1.0.0....0.tEZf7unLTuU">Notizie Google EMILIA ROMAGNA+LEGA ultimi 7gg</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.google.com/search?biw=1920&bih=939&tbs=sbd%3A1%2Cqdr%3Aw&tbm=nws&ei=3LrcW7rOH4ydgAa7zL_IDw&q=%22emilia+romagna%22+lega+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&oq=%22emilia+romagna%22+lega+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&gs_l=psy-ab.3...9071.11418.0.12415.14.14.0.0.0.0.103.1085.12j2.14.0....0...1c.1.64.psy-ab..1.0.0....0.tEZf7unLTuU">Notizie
+                    Google EMILIA ROMAGNA+LEGA ultimi 7gg</a></div>
         </div>
     </section>
 
     <section class="mbr-section content5 cid_notizie_google_5" id="id_notizie_google_5">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.google.com/search?biw=804&bih=938&tbs=sbd%3A1%2Cqdr%3Aw&tbm=nws&ei=FcDcW_GwOoKUgQa6pJDoAQ&q=%22emilia+romagna%22+sondaggio+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&oq=%22emilia+romagna%22+sondaggio+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&gs_l=psy-ab.3...6226.7877.0.8822.9.9.0.0.0.0.127.534.7j1.8.0....0...1c.1.64.psy-ab..2.0.0....0.sHyRVa1SDVg">Notizie Google EMILIA ROMAGNA+SONDAGGIO ultimi 7gg</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.google.com/search?biw=804&bih=938&tbs=sbd%3A1%2Cqdr%3Aw&tbm=nws&ei=FcDcW_GwOoKUgQa6pJDoAQ&q=%22emilia+romagna%22+sondaggio+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&oq=%22emilia+romagna%22+sondaggio+-%22grissin+Bon%22+-%22lega+volley%22+-%22lega+A%22+-%22campionato%22+-%22uci+reggio+emilia%22&gs_l=psy-ab.3...6226.7877.0.8822.9.9.0.0.0.0.127.534.7j1.8.0....0...1c.1.64.psy-ab..2.0.0....0.sHyRVa1SDVg">Notizie
+                    Google EMILIA ROMAGNA+SONDAGGIO ultimi 7gg</a></div>
         </div>
     </section>
 
     <section class="mbr-section content5 cid_proiezioni_sondaggi" id="id_proiezioni_sondaggi">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/media/set/?set=a.10155576992142735&type=1&l=342d795157">proiezioni territoriali dei sondaggi nazionali</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/media/set/?set=a.10155576992142735&type=1&l=342d795157">proiezioni
+                    territoriali dei sondaggi nazionali</a></div>
         </div>
     </section>
 
     <section class="mbr-section content1 cid_siti_e_social" id="id_siti_e_social">
         <div class="mbr-container">
-          <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">siti e social nazionali</h2>
+            <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">siti e social nazionali</h2>
         </div>
     </section>
 
 
     <section class="mbr-section content5 cid_lega_nord_fb" id="id_lega_nord_fb">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/legasalvinipremier/">LEGA NORD facebook</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/legasalvinipremier/">LEGA
+                    NORD facebook</a></div>
         </div>
     </section>
     <section class="mbr-section content5 cid_lega_nord_org" id="id_lega_nord_org">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.leganord.org/">LEGA NORD org</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.leganord.org/">LEGA
+                    NORD org</a></div>
         </div>
     </section>
     <section class="mbr-section content5 cid_lega_nord_youtube" id="id_lega_nord_youtube">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.youtube.com/user/telepadaniatgnord/videos?view=0&sort=dd&flow=grid">LEGA canale youtube</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.youtube.com/user/telepadaniatgnord/videos?view=0&sort=dd&flow=grid">LEGA
+                    canale youtube</a></div>
         </div>
     </section>
 
 
     <section class="mbr-section content1 cid_segreterie" id="id_segreterie">
         <div class="mbr-container">
-          <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">segretari</h2>
+            <h2 class="mbr-title align-center mbr-fonts-style mbr-bold display-1">segretari</h2>
         </div>
     </section>
     <section class="mbr-section content5 cid_segretario_nazionale" id="id_segretario_nazionale">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/salviniofficial">Matteo Salvini</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/salviniofficial">Matteo
+                    Salvini</a></div>
         </div>
     </section>
     <section class="mbr-section content5 cid_segretario_emilia" id="id_segretario_emilia">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/On-Gianluca-Vinci-Segretario-Lega-Emilia-60235153066/">Gianluca Vinci</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/On-Gianluca-Vinci-Segretario-Lega-Emilia-60235153066/">Gianluca
+                    Vinci</a></div>
         </div>
     </section>
     <section class="mbr-section content5 cid_segretario_provinciale" id="id_segretario_provinciale">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/monti.roberto.37">Roberto Monti</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/monti.roberto.37">Roberto
+                    Monti</a></div>
         </div>
     </section>
     <section class="mbr-section content5 cid_segretario_reggio" id="id_segretario_reggio">
         <div class="mbr-container">
-          <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2"
-              href="https://www.facebook.com/pietro.menozzi">Pietro Menozzi</a></div>
+            <div class="mbr-section-btn align-center"><a class="btn btn-primary display-2" href="https://www.facebook.com/pietro.menozzi">Pietro
+                    Menozzi</a></div>
         </div>
     </section>
 
 
 
-    <button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)"> <a
-        class="scroll-to-top-arrow"></a> </button>
-  </body>
+    <button id="scrollToTopButton" on="tap:top-page.scrollTo(duration=200)"> <a class="scroll-to-top-arrow"></a>
+    </button>
+</body>
+
 </html>
