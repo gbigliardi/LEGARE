@@ -1,3 +1,0 @@
-# LEGARE
-
-GitHub Pages
